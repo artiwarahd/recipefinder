@@ -5,7 +5,7 @@ body {
 
 .recipe-item {
   display: flex;
-  align-item: center;
+  align-items: center;
   justify-content: center;
   margin: 10px;
   padding: 5px;
@@ -32,4 +32,10 @@ body {
   cursor: pointer;
   font-size: 20px;
   margin-right: 15px;
+}
+
+.link {
+  position: absolute;
+  left: 30px;
+  top: 30px;
 }
